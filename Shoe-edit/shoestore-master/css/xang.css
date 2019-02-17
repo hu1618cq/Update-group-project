@@ -1,0 +1,319 @@
+/*Start Xang css style*/
+body {
+	background-color:white;
+	
+}
+#paragraph {
+ margin-left: 6%;
+}
+
+/*Edit the logo image (shoe image in the top menu*/
+.topNav img{
+	margin-left: 1%;
+	
+	width: 6%;
+	padding-right: 3%;
+	margin-top: 0%;
+}
+/*Edit the whole top menu*/
+
+.topNav{
+ 	background-color: #e1eaea;
+	 padding-top: 1%;
+	 padding-bottom: 1%;
+	 margin-left: 5%;
+	 margin-right: 0%;
+	 width: 90%;
+	 height: 6%;
+}
+.topnav a {
+	text-align: center;
+	text-decoration: none;
+	background-color: #e1eaea;
+	color: black;
+	margin-left: 5%;
+	float: right; 
+}
+/*Edit the top menu button*/
+.dropbtn {
+    background-color: #e1eaea;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    font-size:15px;
+    border: none;
+    cursor: pointer;
+
+}
+/*Edit drop down menu in the top menu*/
+.dropdown {
+	margin-right: 20px;
+	float: right;
+    position: relative;
+    display: inline-block;
+}
+.dropdown a{
+	text-decoration: none;
+	color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e1eaea;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn a:hover{
+	background-color: white;
+}
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+/*End edit drop down menu*/
+h3{
+	font-size: 40px;
+	border-bottom: 3px solid #e1eaea;
+	margin-left: 5%;
+	 margin-right: 0%;
+	 width: 90%;
+	 height: 10%;
+}
+h1{
+	font-size: 30px;
+	border-bottom: 3px solid #e1eaea;
+	margin-left: 5%;
+	 margin-right: 0%;
+	 width: 90%;
+	 height: 1%;
+}
+
+.background img{
+	float: left;
+	width: 40%;
+ 	margin-top:3%;
+ 	margin-left: 8%;
+ }
+  .background p {
+  	float: right;
+  	width: 30%;
+  	margin-top:10%;
+  	margin-right:18%; 
+  }
+.seller {
+	margin-top: 30%;
+	margin-left: 5%;
+}
+.seller h3{
+font-size: 30px;
+	border-bottom: 3px solid #e1eaea;
+	margin-left: 0%;
+	 margin-right: 0%;
+	 padding-right: 3%;
+	 width: 90%;
+	 height: 10%;	
+ }
+ .seller .seller-table{
+ 	border: 1px solid red;
+ 	border: 3px solid white;
+ 	margin-left:0%;
+ 	margin-right: 0%;
+ 	margin-bottom:0%;
+ 	width: 95%;
+ 	height: 10%;
+ }
+ .seller .seller-table td{
+background-color:  #e1eaea;
+ }
+  .seller .seller-table a{
+  	text-decoration: none;
+  }
+ .seller .seller-table img{
+ 	margin-left: 10%;
+ 	margin-top: 3%;
+ 	width: 35%
+
+ }
+
+ .seller .seller-table #price{
+ 	float: right;
+ 	font-size: 20px;
+ 	margin-right: 47%;
+ 	margin-top: -14%;
+
+ }
+ .seller .seller-table p{
+ float: right;
+ 	font-size: 20px;
+ 	padding-bottom: 5%;
+ 	margin-right: 20%;
+ 	margin-top: 3%;
+ }
+  .seller .seller-table button{
+ 	float: right;
+ 	font-size: 15px;
+ 	margin-right: 43%;
+ 	margin-top: -10%;
+ }
+ /*Edit view html page*/
+.title{
+
+	font-size: 40px;
+	margin-top: 4%;
+
+
+}
+#fig-all {
+	margin-bottom: 10%;
+}
+#fig-all h3{
+border-bottom: 3px solid #e1eaea;
+	margin-left: 2%;
+	 padding-right: 3%;
+	 width: 93%;
+	 height: 30%;	
+	margin-top: 1%;
+ font-size: 30px;
+	
+}
+#fig-all p{
+	margin-left: 5%;
+}
+#description {
+	position: relative;
+}
+#description p{
+
+	margin-top: -20%;
+	margin-right: 5%;
+	float: right;
+	width: 60%;
+	height: 30%;
+}
+#description label{
+	color:red;
+	position: absolute;
+	margin-left: 35%;
+	margin-top:-16%;
+}
+#description #prices{
+	position: absolute;
+	margin-top:-16.1%;
+	margin-left: 39.5%;
+}
+
+#button-box{
+	margin-top: -1%;
+	margin-right:25.7%;
+	float: right;
+	width: 40%;
+	height: 20%;
+}
+#product-details{
+	margin-top: -13%;
+	margin-left: 34%;
+	width: 20%;
+}
+#product-details table{
+	margin-top: -12%;
+}
+.sim-products{
+	margin-bottom: 10%;
+	margin-left: 0%;
+	margin-top: 5%;
+}
+#fig-all #display-shoe img{
+	width: 20%;
+	margin-left: 5%;
+}
+#header-sim {
+	margin-right: 2%;
+}
+#productdisplay{
+background-color: #e1eaea;
+}
+
+/*bottom menu*/
+.main-nav {
+	margin-top: 0%;
+	padding-top: 1%;
+	padding-bottom: 2.5%;
+	background-color: #e1eaea;
+	margin-left: 5%;
+	 margin-right: 5%;
+}
+.main-nav button {
+
+	border: 1px solid red;
+	float: left;
+	width: 10%;
+	height: 1%;
+	  background-color: #e1eaea;
+    font-weight: bold;
+    font-size:15px;
+    border: none;
+    cursor: pointer;
+
+}
+.main-nav button:hover{
+	background-color: white;
+}
+.main-nav a{
+
+	text-align: center;
+	text-decoration: none;
+	 color: black;
+}
+
+#credit{
+	text-align: center;
+}
+.main-nav1 {
+	margin-top: 5%;
+	padding-top: 1%;
+	padding-bottom: 2.5%;
+	background-color: #e1eaea;
+	margin-left: 5%;
+	 margin-right: 5%;
+}
+.main-nav1 button {
+
+	border: 1px solid red;
+	float: left;
+	width: 10%;
+	height: 1%;
+	  background-color: #e1eaea;
+    font-weight: bold;
+    font-size:15px;
+    border: none;
+    cursor: pointer;
+
+}
+.main-nav1 button:hover{
+	background-color: white;
+}
+.main-nav1 a{
+
+	text-align: center;
+	text-decoration: none;
+	 color: black;
+}
+
+#credit1{
+	text-align: center;
+}
+}
